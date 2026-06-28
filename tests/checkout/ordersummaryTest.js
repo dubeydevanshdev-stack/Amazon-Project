@@ -1,4 +1,4 @@
-import{renderorderSummary} from '../../scripts/checkout/ordersummary.js';
+import{renderOrderSummary} from '../../scripts/checkout/ordersummary.js';
 import {loadFromStorage,cart} from '../../data/cart.js';
 describe('Test suite: renderOrdersummary',()=>{
 
@@ -27,7 +27,7 @@ describe('Test suite: renderOrdersummary',()=>{
 
         loadFromStorage();
 
-        renderorderSummary();
+        renderOrderSummary();
     });
 
     afterEach(()=>{
